@@ -1,0 +1,772 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Beppe — Barber in Garda, Lake Garda | Haircuts &amp; beards</title>
+<link rel="canonical" href="https://beppebarber.com/en/">
+<link rel="alternate" hreflang="it" href="https://beppebarber.com/">
+<link rel="alternate" hreflang="de" href="https://beppebarber.com/de/">
+<link rel="alternate" hreflang="en" href="https://beppebarber.com/en/">
+<link rel="alternate" hreflang="x-default" href="https://beppebarber.com/">
+<meta name="description" content="Men's barber in Garda on Lake Garda, in Piazzale Roma. Haircuts, beard trims and beard shaping. Book your seat online in seconds.">
+<style>
+@font-face{font-family:'Oswald';src:url(/fonts/oswald-latin-wght-normal.woff2) format('woff2');font-weight:200 700;font-style:normal;font-display:swap}
+@font-face{font-family:'Inter';src:url(/fonts/inter-latin-wght-normal.woff2) format('woff2');font-weight:100 900;font-style:normal;font-display:swap}
+@font-face{font-family:'Instrument Serif';src:url(/fonts/instrument-serif-latin-400-normal.woff2) format('woff2');font-weight:400;font-style:normal;font-display:swap}
+@font-face{font-family:'Instrument Serif';src:url(/fonts/instrument-serif-latin-400-italic.woff2) format('woff2');font-weight:400;font-style:italic;font-display:swap}
+:root{
+  --paper:#F6EEDF;--paper-2:#EFE4D0;--paper-3:#E6D8BF;--card:#FFFFFF;
+  --ink:#171412;--ink-2:#332C26;--muted:#6B6058;--line:#E3D6BF;--line-2:#D0BE9E;
+  --brass:#BA7A2E;--brass-deep:#8E571D;--brass-soft:#F6E4CB;
+  --red:#C8553F;--coral:#E77A5E;   --r:3px;--r-img:4px;--r-card:6px;
+  --ease:cubic-bezier(.22,1,.36,1);
+  --display:'Oswald',Impact,sans-serif;
+  --sans:'Inter',system-ui,sans-serif;
+  --serif:'Instrument Serif',Georgia,serif;
+  --shadow:0 34px 70px -34px rgba(23,20,18,.5);
+  --shadow-soft:0 16px 36px -22px rgba(23,20,18,.35);
+}
+*{margin:0;padding:0;box-sizing:border-box}
+html{scroll-behavior:smooth}
+body{font-family:var(--sans);color:var(--ink);background:var(--paper);font-size:17px;line-height:1.65;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+a{color:inherit;text-decoration:none}img{max-width:100%;display:block}
+::selection{background:var(--ink);color:var(--paper)}
+.wrap{max-width:1180px;margin:0 auto;padding:0 30px}
+.section{position:relative;overflow:hidden;padding:96px 0}
+.section>.wrap{position:relative;z-index:2}
+
+h1,h2,h3,h4{font-family:var(--display);font-weight:600;line-height:1.02;text-transform:uppercase;letter-spacing:.01em;color:var(--ink)}
+.eyebrow{display:inline-flex;align-items:center;gap:11px;font-family:var(--sans);font-size:11.5px;font-weight:700;letter-spacing:.2em;text-transform:uppercase;color:var(--brass-deep)}
+.eyebrow::before{content:"";width:24px;height:2px;background:var(--brass)}
+.eyebrow.c{justify-content:center}
+.eyebrow.c::after{content:"";width:24px;height:2px;background:var(--brass)}
+.display{font-size:clamp(46px,8vw,92px);line-height:.94;letter-spacing:-.005em}
+.display .thin{display:block;font-family:var(--serif);font-style:italic;font-weight:400;text-transform:none;letter-spacing:-.01em;font-size:.52em;line-height:1.05;color:var(--brass-deep);margin-top:.12em}
+.h2{font-size:clamp(30px,4.2vw,52px)}
+.h2 .alt{font-family:var(--serif);font-style:italic;font-weight:400;text-transform:none;color:var(--brass-deep);letter-spacing:-.01em}
+.lede{font-size:17.5px;line-height:1.72;color:var(--muted)}
+.lede b{color:var(--ink-2);font-weight:600}
+
+.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;cursor:pointer;font-family:var(--sans);font-size:13.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:16px 30px;border-radius:var(--r);border:2px solid transparent;transition:background .26s var(--ease),color .26s var(--ease),border-color .26s var(--ease),transform .26s var(--ease)}
+.btn svg{width:17px;height:17px;transition:transform .26s var(--ease)}
+.btn-dark{background:var(--ink);color:var(--paper);box-shadow:var(--shadow-soft)}
+.btn-dark:hover{background:#000;transform:translateY(-2px)}
+.btn-brass{background:var(--brass);color:#1b1304;box-shadow:0 16px 30px -16px rgba(186,122,46,.8)}
+.btn-brass:hover{background:#CC8A3A;transform:translateY(-2px)}
+.btn-line{background:transparent;color:var(--ink);border-color:var(--line-2)}
+.btn-line:hover{border-color:var(--brass);color:var(--brass-deep)}
+.btn-ghost-l{background:transparent;color:var(--paper);border-color:rgba(246,238,223,.35)}
+.btn-ghost-l:hover{border-color:var(--brass);color:var(--brass)}
+a:focus-visible,button:focus-visible{outline:3px solid var(--brass);outline-offset:3px}
+
+.ph{position:relative;background:linear-gradient(150deg,#E2D3BA,#CDB991);overflow:hidden}
+
+.frame{position:relative}
+.frame::after{content:"";position:absolute;inset:12px;border:1px solid rgba(186,122,46,.55);pointer-events:none;z-index:3}
+
+.deco{position:absolute;inset:0;z-index:0;pointer-events:none;overflow:hidden}
+.deco>*{position:absolute}
+.d-grid{inset:0;background-image:linear-gradient(rgba(23,20,18,.045) 1px,transparent 1px),linear-gradient(90deg,rgba(23,20,18,.045) 1px,transparent 1px);background-size:58px 58px}
+.d-dots{inset:0;background-image:radial-gradient(rgba(23,20,18,.11) 1.3px,transparent 1.5px);background-size:18px 18px}
+.dark .d-dots{background-image:radial-gradient(rgba(246,238,223,.1) 1.3px,transparent 1.5px)}
+.dark .d-grid{background-image:linear-gradient(rgba(246,238,223,.05) 1px,transparent 1px),linear-gradient(90deg,rgba(246,238,223,.05) 1px,transparent 1px)}
+.fade-tr{-webkit-mask:radial-gradient(76% 70% at 86% 14%,#000,transparent 74%);mask:radial-gradient(76% 70% at 86% 14%,#000,transparent 74%)}
+.fade-bl{-webkit-mask:radial-gradient(76% 70% at 12% 90%,#000,transparent 74%);mask:radial-gradient(76% 70% at 12% 90%,#000,transparent 74%)}
+.fade-c{-webkit-mask:radial-gradient(70% 64% at 50% 44%,#000,transparent 78%);mask:radial-gradient(70% 64% at 50% 44%,#000,transparent 78%)}
+.d-glow{border-radius:50%;filter:blur(12px);background:radial-gradient(circle,rgba(186,122,46,.22),transparent 68%)}
+.d-mark{font-family:var(--display);font-weight:700;line-height:.78;text-transform:uppercase;color:rgba(23,20,18,.045);user-select:none}
+.dark .d-mark{color:rgba(246,238,223,.05)}
+
+.topbar{background:var(--ink);color:#CFC5B6;font-size:12.5px;letter-spacing:.04em}
+.topbar .wrap{display:flex;align-items:center;justify-content:space-between;gap:16px;height:40px}
+.topbar a{color:var(--brass);font-weight:600}
+.topbar .tb-r{display:flex;gap:20px;align-items:center}
+@media(max-width:700px){.topbar .tb-l{display:none}.topbar .wrap{justify-content:center}}
+
+.head{position:sticky;top:0;z-index:70;background:rgba(246,238,223,.93);backdrop-filter:blur(10px);border-bottom:1px solid var(--line)}
+.nav{display:flex;align-items:center;justify-content:space-between;height:78px}
+.brand{display:flex;align-items:center;gap:13px;color:var(--ink)}
+.brand .mk{width:46px;height:46px;flex:none;border:2px solid var(--ink);border-radius:50%;display:grid;place-items:center;font-family:var(--display);font-weight:700;font-size:20px;letter-spacing:.02em}
+.brand .bt{display:flex;flex-direction:column;line-height:1}
+.brand .bn{font-family:var(--display);font-size:25px;font-weight:600;text-transform:uppercase;letter-spacing:.04em}
+.brand .br{font-size:10px;font-weight:700;letter-spacing:.22em;text-transform:uppercase;color:var(--brass-deep);margin-top:4px}
+.nav-links{display:flex;align-items:center;gap:30px}
+.nav-links a{position:relative;font-size:13.5px;font-weight:600;letter-spacing:.08em;text-transform:uppercase;color:var(--ink-2);padding:5px 0}
+.nav-links a::after{content:"";position:absolute;left:0;bottom:0;width:100%;height:2px;background:var(--brass);transform:scaleX(0);transform-origin:right;transition:transform .32s var(--ease)}
+.nav-links a:hover::after{transform:scaleX(1);transform-origin:left}
+.nav .btn{padding:12px 22px;font-size:12.5px}
+.nav-toggle{display:none;width:52px;height:52px;flex-direction:column;align-items:center;justify-content:center;gap:5px;background:var(--card);border:1px solid var(--line-2);border-radius:var(--r);cursor:pointer}
+.nav-toggle span{display:block;width:22px;height:2px;background:var(--ink);transition:transform .3s var(--ease),opacity .3s var(--ease)}
+.nav-toggle.open span:nth-child(1){transform:translateY(7px) rotate(45deg)}
+.nav-toggle.open span:nth-child(2){opacity:0}
+.nav-toggle.open span:nth-child(3){transform:translateY(-7px) rotate(-45deg)}
+.nav-r{display:flex;align-items:center;gap:14px}
+.lang{display:inline-flex;align-items:center;gap:8px;border:1px solid var(--line-2);border-radius:99px;padding:9px 15px;font-size:12px;font-weight:700;letter-spacing:.1em;color:var(--muted);line-height:1}
+.lang svg{width:17px;height:17px;flex:none;color:var(--brass-deep)}
+.lang a{color:var(--muted);transition:color .2s}
+.lang a:hover{color:var(--brass-deep)}
+.lang a.on{color:var(--ink);border-bottom:2px solid var(--brass);padding-bottom:2px}
+.lang .sep{color:var(--line-2)}
+@media(max-width:960px){.nav-links{display:none}.nav-r .nav-cta{display:none}.nav-toggle{display:flex}.nav-r{margin-left:auto;margin-right:12px}}
+.brand .br{white-space:nowrap}
+@media(max-width:480px){.brand{gap:10px}.brand .mk{width:40px;height:40px;font-size:18px}.brand .bn{font-size:22px}.brand .br{letter-spacing:.15em;font-size:9px}.lang{padding:8px 11px;gap:6px;letter-spacing:.06em}.lang svg{width:15px;height:15px}.nav-r{margin-right:10px}}
+@media(max-width:480px){.lang svg{display:none}}
+body.menu-open .lang{color:#CFC5B6;border-color:rgba(246,238,223,.3)}
+body.menu-open .lang a{color:#CFC5B6}body.menu-open .lang a.on{color:var(--paper)}
+
+.m-menu{position:fixed;inset:0;z-index:66;background:var(--ink);opacity:0;visibility:hidden;transition:opacity .4s var(--ease),visibility .4s;padding:132px 26px 40px;overflow-y:auto}
+.m-menu.open{opacity:1;visibility:visible}
+.m-inner{max-width:520px;margin:0 auto}
+.m-eyebrow{font-size:10.5px;font-weight:700;letter-spacing:.24em;text-transform:uppercase;color:var(--brass);margin-bottom:16px;display:block}
+.m-menu a.m-link{display:flex;align-items:center;justify-content:space-between;padding:20px 2px;border-bottom:1px solid rgba(246,238,223,.14);font-family:var(--display);font-size:30px;text-transform:uppercase;color:var(--paper)}
+.m-menu a.m-link svg{width:20px;height:20px;color:#7E7467;transition:transform .3s var(--ease)}
+.m-menu a.m-link:hover svg{transform:translateX(4px);color:var(--brass)}
+.m-book{margin-top:28px;width:100%;background:var(--brass);color:#1b1304;border:none}
+.m-foot{margin-top:24px;font-size:13px;color:#9A9184;line-height:1.9;text-align:center}
+.m-foot a{color:var(--brass);font-weight:600}
+.m-menu .m-eyebrow,.m-menu .m-link,.m-menu .m-book,.m-menu .m-foot{opacity:0;transform:translateY(16px);transition:opacity .5s var(--ease),transform .5s var(--ease)}
+.m-menu.open .m-eyebrow{opacity:1;transform:none;transition-delay:.06s}
+.m-menu.open .m-link:nth-of-type(1){opacity:1;transform:none;transition-delay:.12s}
+.m-menu.open .m-link:nth-of-type(2){opacity:1;transform:none;transition-delay:.17s}
+.m-menu.open .m-link:nth-of-type(3){opacity:1;transform:none;transition-delay:.22s}
+.m-menu.open .m-link:nth-of-type(4){opacity:1;transform:none;transition-delay:.27s}
+.m-menu.open .m-book{opacity:1;transform:none;transition-delay:.34s}
+.m-menu.open .m-foot{opacity:1;transform:none;transition-delay:.4s}
+body.menu-open{overflow:hidden}
+body.menu-open .head{background:transparent;border-color:transparent;backdrop-filter:none}
+body.menu-open .brand{color:var(--paper)}
+body.menu-open .brand .mk{border-color:var(--paper)}
+body.menu-open .nav-toggle{background:transparent;border-color:rgba(246,238,223,.3)}
+body.menu-open .nav-toggle span{background:var(--paper)}
+
+.hero{position:relative;overflow:hidden;background:var(--paper);padding:64px 0 0}
+.hero .deco .d-glow{width:480px;height:480px;top:-150px;right:-120px;background:radial-gradient(circle,rgba(231,122,94,.2),transparent 68%)}
+.hero .deco .d-dots{opacity:.55;-webkit-mask:linear-gradient(135deg,#000,transparent 55%);mask:linear-gradient(135deg,#000,transparent 55%)}
+.hero-grid{display:grid;grid-template-columns:1.04fr .96fr;grid-template-areas:"copy media" "trust media";gap:0 52px;align-items:center;padding-bottom:84px}
+.hero-copy{grid-area:copy;align-self:end}
+.hero-media{grid-area:media}
+.htrust{grid-area:trust;align-self:start}
+.hero .eyebrow{margin-bottom:24px}
+.hero .display{margin-bottom:26px}
+.hero .lede{max-width:470px;margin-bottom:34px}
+.hero-cta{display:flex;flex-wrap:wrap;gap:13px;margin-bottom:38px}
+.htrust{display:flex;flex-wrap:wrap;gap:18px 0}
+.htrust .it{display:flex;align-items:center;gap:12px;padding:0 26px}
+.htrust .it:first-child{padding-left:0}
+.htrust .it+.it{border-left:1px solid var(--line-2)}
+.htrust .ic svg{width:27px;height:27px;color:var(--brass);stroke-width:1.5}
+.htrust .tl{display:block;font-family:var(--display);font-size:15px;font-weight:600;text-transform:uppercase;letter-spacing:.04em;color:var(--ink);line-height:1.15}
+.htrust .sl{display:block;font-size:12.5px;color:var(--muted);margin-top:3px}
+.hero-media{position:relative}
+.hero-photo{position:relative;aspect-ratio:4/4.6;overflow:hidden;border-radius:var(--r-img);box-shadow:var(--shadow)}
+.hero-photo .ph{position:absolute;inset:0}
+.hero-stamp{position:absolute;left:-22px;bottom:40px;width:124px;height:124px;border-radius:50%;background:var(--ink);color:var(--paper);display:grid;place-items:center;text-align:center;box-shadow:var(--shadow);border:2px solid var(--brass)}
+.hero-stamp .s1{font-family:var(--display);font-size:13px;font-weight:600;letter-spacing:.14em;text-transform:uppercase;line-height:1.3}
+.hero-stamp .s2{font-family:var(--serif);font-style:italic;font-size:26px;color:var(--brass);line-height:1}
+@media(max-width:960px){.hero-grid{grid-template-columns:1fr;grid-template-areas:"copy" "media" "trust";gap:40px;padding-bottom:64px}.hero-copy,.htrust{align-self:auto}.hero .lede{max-width:none}.hero-media{max-width:430px}}
+@media(max-width:600px){.htrust{flex-direction:column;gap:15px}.htrust .it{padding:0!important;border-left:0!important}.hero-stamp{left:10px;width:104px;height:104px}}
+
+.gal-stage{position:relative}
+.gal-slide{position:absolute;inset:0;opacity:0;visibility:hidden;transition:opacity .5s var(--ease),visibility .5s}
+.gal-slide.is-active{opacity:1;visibility:visible}
+.gal-slide .ph{position:absolute;inset:0}
+.gal-slide img,.gal-th img{display:block;width:100%;height:100%;object-fit:cover}
+.gal-btn{position:absolute;top:50%;transform:translateY(-50%);z-index:4;width:44px;height:44px;border-radius:50%;border:0;background:rgba(246,238,223,.92);color:var(--ink);display:grid;place-items:center;cursor:pointer;box-shadow:var(--shadow-soft);transition:background .2s,transform .2s var(--ease)}
+.gal-btn:hover{background:#fff;transform:translateY(-50%) scale(1.06)}
+.gal-btn svg{width:20px;height:20px}
+.gal-btn.prev{left:14px}.gal-btn.next{right:14px}
+.gal-count{position:absolute;right:16px;bottom:16px;z-index:4;background:rgba(23,20,18,.78);color:var(--paper);font-size:11.5px;font-weight:700;letter-spacing:.12em;padding:6px 11px;border-radius:99px}
+.gal-thumbs{display:grid;grid-template-columns:repeat(6,1fr);gap:10px;margin-top:14px}
+.gal-th{position:relative;aspect-ratio:1;padding:0;border:2px solid transparent;border-radius:var(--r-img);overflow:hidden;cursor:pointer;background:none;opacity:.62;transition:opacity .25s,border-color .25s,transform .25s var(--ease)}
+.gal-th:hover{opacity:1;transform:translateY(-2px)}
+.gal-th.is-active{opacity:1;border-color:var(--brass)}
+.gal-th .ph{position:absolute;inset:0}
+.gal-btn:focus-visible,.gal-th:focus-visible{outline:2px solid var(--brass-deep);outline-offset:2px}
+@media(max-width:600px){.gal-thumbs{gap:7px}.gal-btn{width:40px;height:40px}.gal-btn.prev{left:10px}.gal-btn.next{right:10px}}
+@media(prefers-reduced-motion:reduce){.gal-slide,.gal-th,.gal-btn{transition:none}}
+
+.head-c{max-width:650px;margin:0 auto 54px;text-align:center}
+.head-c .eyebrow{margin-bottom:18px}
+.head-c .lede{margin-top:16px}
+
+.serv{background:var(--card)}
+.serv .deco .d-grid{opacity:.8}
+.serv .deco .d-mark{bottom:-40px;right:10px;font-size:220px}
+.listino{max-width:880px;margin:0 auto;border-top:2px solid var(--ink)}
+.row{display:flex;align-items:baseline;gap:18px;padding:24px 4px;border-bottom:1px solid var(--line);transition:background .25s var(--ease),padding-left .25s var(--ease)}
+.row:hover{background:var(--paper);padding-left:12px}
+.row .n{font-family:var(--sans);font-size:12px;font-weight:700;color:var(--line-2);flex:none;width:28px;letter-spacing:.04em}
+.row .tx{flex:1;min-width:0}
+.row .tx h3{font-size:23px;margin-bottom:4px;letter-spacing:.02em}
+.row .tx p{font-size:14.5px;color:var(--muted);line-height:1.5}
+.row .dots-l{flex:1;border-bottom:1px dotted var(--line-2);transform:translateY(-6px);min-width:24px}
+.row .pz{flex:none;text-align:right}
+.row .pz .eur{font-family:var(--display);font-size:26px;font-weight:600;color:var(--ink);line-height:1}
+.row .pz .dur{display:block;font-size:12px;color:var(--muted);margin-top:4px;letter-spacing:.03em}
+.listino-note{text-align:center;font-size:12.5px;color:var(--muted);margin-top:28px;letter-spacing:.02em}
+@media(max-width:620px){
+  .row{flex-wrap:wrap;gap:8px 14px}
+  .row .dots-l{display:none}
+  .row .tx{flex:1 1 100%;order:2}
+  .row .n{order:1}
+  .row .pz{order:1;margin-left:auto;text-align:right}
+}
+
+.shop{background:var(--paper-2)}
+.shop .deco .d-glow{width:420px;height:420px;bottom:-140px;left:-120px}
+.shop-grid{display:grid;grid-template-columns:1fr 1.08fr;gap:54px;align-items:center}
+.shop-media{position:relative}
+.shop-photo{aspect-ratio:1/1;overflow:hidden;border-radius:var(--r-img);box-shadow:var(--shadow)}
+.shop-photo .ph{position:absolute;inset:0}
+.shop h2{margin:6px 0 20px}
+.shop p{color:var(--muted);margin-bottom:15px;max-width:520px}
+.shop p b{color:var(--ink-2);font-weight:600}
+@media(max-width:880px){.shop-grid{grid-template-columns:1fr;gap:38px}.shop-media{max-width:400px}}
+
+.book{background:var(--ink);color:#CFC5B6}
+.book .eyebrow{color:var(--brass)}
+.book .eyebrow::before,.book .eyebrow.c::after{background:var(--brass)}
+.book .h2{color:var(--paper)}
+.book .head-c .lede{color:#A89E90}
+.book .deco .d-mark{top:-30px;left:0;font-size:260px}
+.book-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:44px;align-items:start}
+.bk-ways{display:grid;gap:14px}
+.bway{display:flex;gap:15px;align-items:center;background:rgba(246,238,223,.05);border:1px solid rgba(246,238,223,.14);border-radius:var(--r-card);padding:20px 22px;transition:border-color .25s,background .25s}
+.bway:hover{border-color:var(--brass);background:rgba(246,238,223,.08)}
+.bway .bi{width:46px;height:46px;flex:none;border-radius:50%;background:rgba(186,122,46,.16);display:grid;place-items:center}
+.bway .bi svg{width:22px;height:22px;color:var(--brass)}
+.bway b{display:block;font-family:var(--display);font-size:18px;text-transform:uppercase;letter-spacing:.04em;color:var(--paper);line-height:1.2}
+.bway span{font-size:13.5px;color:#A89E90}
+.bk-hours{margin-top:24px;border-top:1px solid rgba(246,238,223,.14);padding-top:20px}
+.bk-hours h4{font-size:14px;letter-spacing:.14em;color:var(--brass);margin-bottom:14px}
+.bk-hours ul{list-style:none;display:grid;gap:9px}
+.bk-hours li{display:flex;justify-content:space-between;font-size:14px;color:#CFC5B6;border-bottom:1px dotted rgba(246,238,223,.14);padding-bottom:7px}
+.bk-hours li.off{color:#857C70}
+.bk-hours li b{font-weight:600;color:var(--paper)}
+.cal-wrap{background:rgba(246,238,223,.04);border:1px solid rgba(246,238,223,.16);border-radius:var(--r-card);padding:16px}
+.cal-head{display:flex;align-items:center;justify-content:space-between;gap:10px;padding:4px 6px 14px;font-size:12px;font-weight:600;letter-spacing:.06em;text-transform:uppercase;color:#A89E90}
+.cal-head .brandm{color:var(--brass)}
+.cal-head .live{display:inline-flex;align-items:center;gap:8px;color:#CFC5B6}
+.cal-head .live .d{width:8px;height:8px;border-radius:50%;background:#59A06A;box-shadow:0 0 0 3px rgba(89,160,106,.2)}
+.cal-frame{width:100%;height:620px;border:1px solid rgba(246,238,223,.16);border-radius:var(--r);background:#fff;display:block}
+.cal-hint{margin-top:13px;font-size:12px;color:#857C70;text-align:center}
+@media(max-width:920px){.book-grid{grid-template-columns:1fr;gap:34px}}
+@media(max-width:520px){.cal-frame{height:540px}.cal-wrap{padding:10px}}
+
+.gate{display:flex;flex-direction:column;align-items:center;justify-content:center;gap:14px;text-align:center;padding:30px 24px;border-radius:var(--r);min-height:340px}
+.gate p{font-size:13.5px;line-height:1.6;max-width:380px}
+.gate a{text-decoration:underline;text-underline-offset:3px}
+.gate .gi{width:46px;height:46px;border-radius:50%;display:grid;place-items:center}
+.gate .gi svg{width:22px;height:22px}
+.gate-cal{background:rgba(246,238,223,.05);border:1px dashed rgba(246,238,223,.28);min-height:420px}
+.gate-cal p{color:#A89E90}.gate-cal a{color:var(--brass)}.gate-cal .gi{background:rgba(186,122,46,.16);color:var(--brass)}
+.gate-map{background:var(--paper-2);border:1px dashed var(--line-2);min-height:380px}
+.gate-map p{color:var(--muted)}.gate-map a{color:var(--brass-deep)}.gate-map .gi{background:var(--brass-soft);color:var(--brass-deep)}
+.linkbtn{background:none;border:0;padding:0;font:inherit;color:var(--brass);cursor:pointer;text-decoration:underline;text-underline-offset:3px}
+
+
+.where{background:var(--paper-2)}
+.where-grid{display:grid;grid-template-columns:.85fr 1.15fr;gap:44px;align-items:center}
+.where h2{margin:6px 0 20px}
+.clist{list-style:none;border-top:1px solid var(--line-2)}
+.clist li{border-bottom:1px solid var(--line-2)}
+.clist a,.clist .row-c{display:flex;gap:15px;align-items:flex-start;padding:18px 2px}
+.clist a:hover{color:var(--brass-deep)}
+.clist .ci{width:40px;height:40px;flex:none;border-radius:50%;background:var(--brass-soft);display:grid;place-items:center}
+.clist .ci svg{width:20px;height:20px;color:var(--brass-deep)}
+.clist .cl,.clist .cv{display:block}
+.clist .cl{font-size:10.5px;font-weight:700;letter-spacing:.14em;text-transform:uppercase;color:var(--muted);margin-bottom:3px}
+.clist .cv{font-size:16px;font-weight:600;color:var(--ink);line-height:1.35}
+.clist .cv .sub{display:block;font-size:13px;font-weight:400;color:var(--muted);margin-top:2px}
+.where-actions{display:flex;flex-wrap:wrap;gap:12px;margin-top:24px}
+.map-wrap{position:relative;background:var(--card);border:1px solid var(--line);border-radius:var(--r-card);padding:12px;box-shadow:var(--shadow-soft)}
+.map-frame{width:100%;height:440px;border:1px solid var(--line);border-radius:var(--r);display:block;filter:grayscale(.3) sepia(.12) contrast(1.03)}
+@media(max-width:920px){.where-grid{grid-template-columns:1fr;gap:32px}}
+@media(max-width:520px){.map-frame{height:340px}}
+
+.cta{background:var(--ink);text-align:center;color:var(--paper)}
+.cta .deco .d-dots{opacity:.5}
+.cta .eyebrow{color:var(--brass)}
+.cta .eyebrow::before,.cta .eyebrow.c::after{background:var(--brass)}
+.cta h2{color:var(--paper);margin-bottom:16px}
+.cta .lede{color:#A89E90;max-width:520px;margin:0 auto 32px}
+.cta-actions{display:flex;flex-wrap:wrap;gap:13px;justify-content:center}
+
+.foot{background:#100E0C;color:#8F867A;padding:60px 0 36px}
+.foot-top{display:grid;grid-template-columns:1.6fr 1fr 1fr;gap:42px;padding-bottom:36px;border-bottom:1px solid rgba(246,238,223,.12)}
+.foot .brand{color:var(--paper);margin-bottom:14px}
+.foot .brand .mk{border-color:var(--brass);color:var(--brass)}
+.foot .brand .br{color:var(--brass)}
+.foot p{font-size:13.5px;line-height:1.7;max-width:300px;color:#8F867A}
+.foot h4{font-size:11px;font-weight:700;letter-spacing:.16em;text-transform:uppercase;color:#6E6559;margin-bottom:14px;font-family:var(--sans)}
+.foot ul{list-style:none;display:flex;flex-direction:column;gap:9px}
+.foot ul li,.foot ul a{font-size:14px;color:#8F867A}
+.foot ul a:hover{color:var(--brass)}
+.foot-bottom{display:flex;flex-wrap:wrap;justify-content:space-between;gap:10px;padding-top:22px;font-size:12px;color:#5F5950}
+.foot-bottom a{color:var(--brass)}
+@media(max-width:760px){.foot-top{grid-template-columns:1fr;gap:28px}}
+
+.mob-cta{position:fixed;left:0;right:0;bottom:0;z-index:80;background:var(--ink);padding:11px 13px;display:none;gap:10px;box-shadow:0 -14px 34px -20px rgba(0,0,0,.6)}
+.mob-cta a{flex:1;display:flex;align-items:center;justify-content:center;gap:9px;font-size:13.5px;font-weight:700;letter-spacing:.06em;text-transform:uppercase;padding:14px;border-radius:var(--r)}
+.mob-cta .wa{flex:0 0 auto;width:54px;background:rgba(246,238,223,.1);color:#7FD39A}
+.mob-cta .call{background:var(--brass);color:#1b1304}
+.mob-cta svg{width:19px;height:19px}
+@media(max-width:760px){.mob-cta{display:flex}.foot{padding-bottom:92px}}
+body.menu-open .mob-cta{opacity:0;pointer-events:none}
+
+.reveal{opacity:0;transform:translateY(22px);transition:opacity .7s var(--ease),transform .7s var(--ease)}
+.reveal.in{opacity:1;transform:none}
+@media(prefers-reduced-motion:reduce){.reveal{opacity:1;transform:none;transition:none}.m-menu,.m-menu *{transition:none!important;opacity:1;transform:none}.m-menu{visibility:hidden}.m-menu.open{visibility:visible}html{scroll-behavior:auto}}
+
+.cookie-bar{position:fixed;left:16px;right:16px;bottom:16px;z-index:95;max-width:820px;margin:0 auto;display:flex;align-items:center;gap:18px 24px;background:var(--card);border:1px solid var(--line-2);border-radius:var(--r-card);box-shadow:0 24px 60px -20px rgba(23,20,18,.45);padding:16px 20px}
+.cookie-bar[hidden]{display:none}
+.cookie-bar p{flex:1;font-size:13.5px;line-height:1.55;color:var(--ink-2)}
+.cookie-bar p b{font-family:var(--display);text-transform:uppercase;letter-spacing:.06em;font-weight:600;color:var(--ink);margin-right:4px}
+.cookie-bar p a{color:var(--brass-deep);text-decoration:underline;text-underline-offset:3px;white-space:nowrap}
+.cookie-actions{display:flex;gap:10px;flex:none}
+.cookie-actions .btn{padding:12px 20px;font-size:12px}
+@media(max-width:640px){.cookie-bar{flex-direction:column;align-items:stretch;left:10px;right:10px;bottom:10px;padding:16px}.cookie-actions .btn{flex:1}}
+.brand .brand-logo{display:block;height:58px;width:auto;flex:none;mix-blend-mode:multiply}
+@media(max-width:480px){.brand .brand-logo{height:46px}}
+body.menu-open .brand .brand-logo{mix-blend-mode:normal;background:var(--paper);border-radius:8px;padding:2px}
+.shop-photo img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;display:block}
+.rev-sec{background:var(--card)}
+.rev-sec .deco .d-dots{opacity:.4}
+.rev-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}
+.rev{background:var(--paper);border:1px solid var(--line);border-radius:var(--r-card);padding:28px 26px;display:flex;flex-direction:column}
+.rev .stars{display:flex;gap:3px;margin-bottom:14px}
+.rev .stars svg{width:16px;height:16px;color:var(--brass)}
+.rev .stars svg.off{color:var(--line-2)}
+.rev blockquote{font-family:var(--serif);font-size:19px;line-height:1.45;color:var(--ink);margin-bottom:18px;flex:1}
+.rev .who{display:flex;align-items:center;gap:12px}
+.rev .av{width:40px;height:40px;border-radius:50%;background:var(--brass-soft);display:grid;place-items:center;font-family:var(--display);font-size:14px;font-weight:600;color:var(--brass-deep);letter-spacing:.04em}
+.rev .nm{font-size:14px;font-weight:600;color:var(--ink);line-height:1.3}
+.rev .rl{font-size:12px;color:var(--muted)}
+.rev-foot{text-align:center;margin-top:36px}
+@media(max-width:880px){.rev-grid{grid-template-columns:1fr}}
+.prod-teaser{max-width:820px;margin:44px auto 0;display:flex;align-items:center;justify-content:space-between;gap:24px;background:var(--paper);border:1px solid var(--line);border-radius:var(--r-card);padding:26px 30px}
+.prod-teaser h3{font-family:var(--display);font-size:26px;text-transform:uppercase;letter-spacing:.03em;margin:6px 0}
+.prod-teaser p{font-size:14.5px;color:var(--muted);line-height:1.55}
+.prod-teaser .btn{flex:none}
+@media(max-width:640px){.prod-teaser{flex-direction:column;align-items:flex-start;padding:24px}.prod-teaser .btn{width:100%}}
+
+.nav-links a{white-space:nowrap}.nav-links{gap:26px}.nav-cta{white-space:nowrap}
+@media(min-width:1181px){.nav .wrap,.head .wrap{max-width:1280px}.nav-links{gap:24px;margin:0 28px;flex:1;justify-content:center}.nav-links a{font-size:13px;letter-spacing:.06em}.nav .btn{padding:12px 18px;font-size:12px}.nav-r{gap:12px}}
+@media(max-width:1180px){.nav-links{display:none}.nav-r .nav-cta{display:none}.nav-toggle{display:flex}.nav-r{margin-left:auto;margin-right:12px}}
+</style>
+</head>
+<body>
+
+<div class="topbar">
+  <div class="wrap">
+    <span class="tb-l">Piazzale Roma 12 · Garda (VR)</span>
+    <span class="tb-r">
+      <span>Tue–Sat · 8:45 am–1:00 pm</span>
+    </span>
+  </div>
+</div>
+
+<header class="head">
+  <div class="wrap nav">
+    <a href="#top" class="brand">
+      <img class="brand-logo" src="https://beppebarber.com/wp-content/uploads/2026/11/27c2f9d4-376c-4412-878b-f74cfc516e1f-1.webp" alt="Beppe Barber Shop" width="58" height="58" decoding="async">
+      <span class="bt"><span class="bn">Beppe</span><span class="br">Barber · Garda</span></span>
+    </a>
+    <nav class="nav-links" aria-label="Navigation">
+      <a href="#servizi">Price list</a>
+      <a href="/en/products/">Products</a>
+      <a href="#bottega">The shop</a>
+      <a href="#recensioni">Reviews</a>
+      <a href="#dove">Find us</a>
+    </nav>
+    <div class="nav-r">
+      <a href="#prenota" class="btn btn-dark nav-cta">
+      <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="5" width="17" height="15.5" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="m9.5 15 2 2 3.5-3.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+      Book in the calendar
+    </a>
+      <div class="lang" role="group" aria-label="Language"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><circle cx="12" cy="12" r="9" stroke="currentColor" stroke-width="1.6"/><path d="M3 12h18M12 3c2.6 2.7 3.9 5.7 3.9 9s-1.3 6.3-3.9 9c-2.6-2.7-3.9-5.7-3.9-9S9.4 5.7 12 3Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg><a href="/" hreflang="it" lang="it">IT</a><span class="sep">/</span><a href="/de/" hreflang="de" lang="de">DE</a><span class="sep">/</span><a href="/en/" hreflang="en" lang="en" class="on" aria-current="true">EN</a></div>
+    </div>
+    <button class="nav-toggle" id="navToggle" aria-label="Open menu" aria-expanded="false" aria-controls="mMenu"><span></span><span></span><span></span></button>
+  </div>
+</header>
+
+<div class="m-menu" id="mMenu" aria-hidden="true">
+  <div class="m-inner">
+    <span class="m-eyebrow">Beppe · Barber in Garda</span>
+    <a href="#servizi" class="m-link">Price list <svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    <a href="/en/products/" class="m-link">Products <svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    <a href="#bottega" class="m-link">The shop <svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    <a href="#recensioni" class="m-link">Reviews <svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    <a href="#dove" class="m-link">Find us <svg viewBox="0 0 24 24" fill="none"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="1.6" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    <a href="#prenota" class="btn m-book">Book in the calendar</a>
+    <div class="m-foot">Piazzale Roma 12, Garda (VR)<br>Tue–Sat · 8:45 am–1:00 pm · Mon and Sun closed</div>
+  </div>
+</div>
+
+<section class="hero" id="top">
+  <div class="deco" aria-hidden="true"><span class="d-glow"></span><span class="d-dots"></span></div>
+  <div class="wrap">
+    <div class="hero-grid">
+      <div class="hero-copy">
+        <span class="eyebrow">Barber in Garda · Piazzale Roma</span>
+        <h1 class="display">Cut and beard<span class="thin">the way it used to be.</span></h1>
+        <p class="lede">In Piazzale Roma, in the heart of Garda. Men's haircuts, beard trims and <b>beard shaping</b>: skilled hands, the right pace, no rush.</p>
+        <div class="hero-cta">
+          <a href="#prenota" class="btn btn-dark">
+            <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="5" width="17" height="15.5" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="m9.5 15 2 2 3.5-3.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            Book your seat in the calendar
+          </a>
+          <a href="#servizi" class="btn btn-line">See the price list</a>
+        </div>
+      </div>
+      <div class="hero-media reveal">
+        <div class="gal" data-gallery role="region" aria-roledescription="carousel" aria-label="Shop photos">
+          <div class="gal-stage">
+            <div class="hero-photo frame">
+            <figure class="gal-slide" aria-roledescription="slide" aria-label="1 / 6">
+              
+              <img src="https://beppebarber.com/wp-content/uploads/2026/11/aa05b9a0-4374-4bd2-b537-3381b2bfa071.webp" alt="Haircut and beard at Beppe's in Garda — photo 1" loading="eager" decoding="async" fetchpriority="high">
+            </figure>
+            <figure class="gal-slide" aria-roledescription="slide" aria-label="2 / 6">
+              
+              <img src="https://beppebarber.com/wp-content/uploads/2026/11/b6e82672-abb5-486c-8dbd-2a3f24fa39d4.webp" alt="Haircut and beard at Beppe's in Garda — photo 2" loading="lazy" decoding="async">
+            </figure>
+            <figure class="gal-slide" aria-roledescription="slide" aria-label="3 / 6">
+              
+              <img src="https://beppebarber.com/wp-content/uploads/2026/11/ae05734a-2eed-4e88-9ac7-549ed2a38c41.webp" alt="Haircut and beard at Beppe's in Garda — photo 3" loading="lazy" decoding="async">
+            </figure>
+            <figure class="gal-slide" aria-roledescription="slide" aria-label="4 / 6">
+              
+              <img src="https://beppebarber.com/wp-content/uploads/2026/11/9c279729-127b-4205-b232-27b392f841a0.webp" alt="Haircut and beard at Beppe's in Garda — photo 4" loading="lazy" decoding="async">
+            </figure>
+            <figure class="gal-slide" aria-roledescription="slide" aria-label="5 / 6">
+              
+              <img src="https://beppebarber.com/wp-content/uploads/2026/11/5ccbb99a-5dd9-44bf-8608-788e134dadf3.webp" alt="Haircut and beard at Beppe's in Garda — photo 5" loading="lazy" decoding="async">
+            </figure>
+            <figure class="gal-slide" aria-roledescription="slide" aria-label="6 / 6">
+              
+              <img src="https://beppebarber.com/wp-content/uploads/2026/11/67f95f29-0628-4a48-8d8a-8365835c2b78.webp" alt="Haircut and beard at Beppe's in Garda — photo 6" loading="lazy" decoding="async">
+            </figure>
+            </div>
+            <button type="button" class="gal-btn prev" aria-label="Previous photo"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m15 6-6 6 6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <button type="button" class="gal-btn next" aria-label="Next photo"><svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="m9 6 6 6-6 6" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/></svg></button>
+            <span class="gal-count" aria-live="polite">1 / 6</span>
+            <div class="hero-stamp">
+          <div>
+            <div class="s1">Barber</div>
+            <div class="s2">Beppe</div>
+            <div class="s1">Garda</div>
+          </div>
+        </div>
+          </div>
+          <div class="gal-thumbs">
+          <button type="button" class="gal-th" aria-label="Go to photo 1"><img src="https://beppebarber.com/wp-content/uploads/2026/11/aa05b9a0-4374-4bd2-b537-3381b2bfa071.webp" alt="" loading="lazy" decoding="async"></button>
+          <button type="button" class="gal-th" aria-label="Go to photo 2"><img src="https://beppebarber.com/wp-content/uploads/2026/11/b6e82672-abb5-486c-8dbd-2a3f24fa39d4.webp" alt="" loading="lazy" decoding="async"></button>
+          <button type="button" class="gal-th" aria-label="Go to photo 3"><img src="https://beppebarber.com/wp-content/uploads/2026/11/ae05734a-2eed-4e88-9ac7-549ed2a38c41.webp" alt="" loading="lazy" decoding="async"></button>
+          <button type="button" class="gal-th" aria-label="Go to photo 4"><img src="https://beppebarber.com/wp-content/uploads/2026/11/9c279729-127b-4205-b232-27b392f841a0.webp" alt="" loading="lazy" decoding="async"></button>
+          <button type="button" class="gal-th" aria-label="Go to photo 5"><img src="https://beppebarber.com/wp-content/uploads/2026/11/5ccbb99a-5dd9-44bf-8608-788e134dadf3.webp" alt="" loading="lazy" decoding="async"></button>
+          <button type="button" class="gal-th" aria-label="Go to photo 6"><img src="https://beppebarber.com/wp-content/uploads/2026/11/67f95f29-0628-4a48-8d8a-8365835c2b78.webp" alt="" loading="lazy" decoding="async"></button>
+          </div>
+        </div>
+      </div>
+      <div class="htrust">
+        <div class="it">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-5.3 7-11a7 7 0 1 0-14 0c0 5.7 7 11 7 11Z" stroke="currentColor" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.4" stroke="currentColor"/></svg></span>
+          <span><span class="tl">In central Garda</span><span class="sl">Piazzale Roma 12</span></span>
+        </div>
+        <div class="it">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none"><path d="M6 6h12M6 18h12" stroke="currentColor" stroke-linecap="round"/><circle cx="7" cy="9" r="2.4" stroke="currentColor"/><circle cx="7" cy="15" r="2.4" stroke="currentColor"/><path d="M9 10.5 18 15M9 13.5 18 9" stroke="currentColor" stroke-linecap="round"/></svg></span>
+          <span><span class="tl">Men only</span><span class="sl">Cut, beard, shaping</span></span>
+        </div>
+        <div class="it">
+          <span class="ic"><svg viewBox="0 0 24 24" fill="none"><circle cx="12" cy="12" r="9" stroke="currentColor"/><path d="M12 7.5V12l3 2" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+          <span><span class="tl">No waiting</span><span class="sl">By appointment</span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section serv" id="servizi">
+  <div class="deco" aria-hidden="true"><span class="d-grid fade-tr"></span><span class="d-mark">BEPPE</span></div>
+  <div class="wrap">
+    <div class="head-c reveal">
+      <span class="eyebrow c">The price list</span>
+      <h2 class="h2">What we <span class="alt">do.</span></h2>
+      <p class="lede">Few things, done well. No complicated packages.</p>
+    </div>
+    
+    <div class="listino reveal">
+      <div class="row">
+        <span class="n">01</span>
+        <div class="tx"><h3>Haircut</h3><p>Men's haircut, tailored to you.</p></div>
+        <span class="dots-l"></span>
+        <div class="pz"><span class="eur">€25</span></div>
+      </div>
+      <div class="row">
+        <span class="n">02</span>
+        <div class="tx"><h3>Beard</h3><p>Care and finishing for your beard.</p></div>
+        <span class="dots-l"></span>
+        <div class="pz"><span class="eur">€12</span></div>
+      </div>
+      <div class="row">
+        <span class="n">03</span>
+        <div class="tx"><h3>Beard shaping</h3><p>Beard sculpted and finished with precision.</p></div>
+        <span class="dots-l"></span>
+        <div class="pz"><span class="eur">€18</span></div>
+      </div>
+      <div class="row">
+        <span class="n">04</span>
+        <div class="tx"><h3>Under 18</h3><p>Haircut for teens up to 17.</p></div>
+        <span class="dots-l"></span>
+        <div class="pz"><span class="eur">€20</span></div>
+      </div>
+    </div>
+    <p class="listino-note reveal">Shampoo and lotions depending on the product used · For hygiene, we recommend washing your hair before the cut<br>Services shorter or longer than those listed are charged proportionally</p>
+    <div class="prod-teaser reveal">
+      <div><span class="eyebrow">In the shop</span><h3>Beppe's products</h3><p>Curl definer, waxes, gel and after-shave cream: six products for hair and beard.</p></div>
+      <a class="btn btn-dark" href="/en/products/">See the products <svg viewBox="0 0 24 24" fill="none" aria-hidden="true"><path d="M5 12h14m-6-6 6 6-6 6" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg></a>
+    </div>
+  </div>
+</section>
+
+<section class="section shop" id="bottega">
+  <div class="deco" aria-hidden="true"><span class="d-glow"></span></div>
+  <div class="wrap">
+    <div class="shop-grid">
+      <div class="shop-media reveal">
+        <div class="shop-photo frame"><img src="https://beppebarber.com/wp-content/uploads/2026/11/348d1052-45ed-423f-b2ed-49453e058fd2.webp" alt="Beppe's barbershop in Garda" loading="lazy" decoding="async"></div>
+      </div>
+      <div class="shop-copy reveal">
+        <span class="eyebrow">The shop</span>
+        <h2 class="h2">One chair, <span class="alt">all the time it takes.</span></h2>
+        <p>At Beppe's nobody gets rushed through. <b>You walk in, sit down and chat</b> while the cut takes shape. It's the neighbourhood barber as it should be: the same pair of hands, every time.</p>
+        <p>We're in Piazzale Roma, in the centre of Garda.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section book dark" id="prenota">
+  <div class="deco" aria-hidden="true"><span class="d-dots fade-bl"></span><span class="d-mark">BEPPE</span></div>
+  <div class="wrap">
+    <div class="head-c reveal">
+      <span class="eyebrow c">Book</span>
+      <h2 class="h2">Drop in, or <span class="alt">book your seat.</span></h2>
+      <p class="lede">Pick a day and time in the calendar: your slot is held and the chair is free when you arrive.</p>
+    </div>
+    <div class="book-grid">
+      <div class="reveal">
+        <div class="bk-ways">
+          <a class="bway" href="#cal">
+            <span class="bi"><svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="5" width="17" height="15.5" rx="2" stroke="currentColor" stroke-width="1.7"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.7" stroke-linecap="round"/><path d="m9.5 15 2 2 3.5-3.8" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <span><b>Pick a day and time</b><span>Book in the calendar, in a few seconds</span></span>
+          </a>
+          <div class="bway">
+            <span class="bi"><svg viewBox="0 0 24 24" fill="none"><path d="M5 12.5 10 17.5 19 7" stroke="currentColor" stroke-width="1.7" stroke-linecap="round" stroke-linejoin="round"/></svg></span>
+            <span><b>Confirmation and reminder</b><span>You get both automatically</span></span>
+          </div>
+          <a class="bway" href="#dove">
+            <span class="bi"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-5.3 7-11a7 7 0 1 0-14 0c0 5.7 7 11 7 11Z" stroke="currentColor" stroke-width="1.7" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.7"/></svg></span>
+            <span><b>Drop in</b><span>Piazzale Roma 12, Garda</span></span>
+          </a>
+        </div>
+        
+        <div class="bk-hours">
+          <h4>Opening hours</h4>
+          <ul>
+            <li class="off"><span>Monday</span><b>Closed</b></li>
+            <li><span>Tuesday</span><b>8:45 am – 1:00 pm</b></li>
+            <li><span>Wednesday</span><b>8:45 am – 1:00 pm</b></li>
+            <li><span>Thursday</span><b>8:45 am – 1:00 pm</b></li>
+            <li><span>Friday</span><b>8:45 am – 1:00 pm</b></li>
+            <li><span>Saturday</span><b>8:45 am – 1:00 pm</b></li>
+            <li class="off"><span>Sunday</span><b>Closed</b></li>
+          </ul>
+        </div>
+      </div>
+      <div class="reveal">
+        
+        <div class="cal-wrap" id="cal">
+          <div class="cal-head"><span class="brandm">Availability · Beppe</span><span class="live"><span class="d"></span>Online booking</span></div>
+          <div class="gate gate-cal" data-gate data-cls="cal-frame" data-title="Booking calendar" data-src="https://calendar.google.com/calendar/appointments/schedules/INSERISCI-ID-PRENOTAZIONE?gv=true&hl=en">
+            <span class="gi"><svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="5" width="17" height="15.5" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/></svg></span>
+            <p>To show the calendar, content from Google is loaded, which may set cookies. No data is sent until you ask. <a href="/cookie-policy/">Cookie Policy (IT)</a></p>
+            <button type="button" class="btn btn-brass" data-load>Load the calendar</button>
+          </div>
+          <p class="cal-hint">Pick a day and time · confirmation and reminder included</p>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section rev-sec" id="recensioni">
+  <div class="deco" aria-hidden="true"><span class="d-dots fade-tr"></span></div>
+  <div class="wrap">
+    <div class="head-c reveal">
+      <span class="eyebrow c">What our clients say</span>
+      <h2 class="h2">Our <span class="alt">regulars.</span></h2>
+      <p class="lede">Reviews on Google, in the original Italian</p>
+    </div>
+    <div class="rev-grid reveal">
+      <div class="rev">
+        <div class="stars" role="img" aria-label="5 out of 5"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg></div>
+        <blockquote lang="it">«Sono tornato da Beppe dopo molti anni, perché non abito più vicino come prima non per altro, e devo dire che come al solito ho trovato la sua professionalità e simpatia. Beppe è veloce nel suo lavoro ma questa velocità non va a discapito della qualità. Sempre sorridente e cordiale e ciliegina sulla torta? L'è Gardesaa. Pulizia, simpatia, cordialità e professionalità sempre al Top. A presto. Bravo Beppe.»</blockquote>
+        <div class="who"><span class="av" aria-hidden="true">SB</span><span class="nm">Stefano B.</span></div>
+      </div>
+      <div class="rev">
+        <div class="stars" role="img" aria-label="5 out of 5"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg></div>
+        <blockquote lang="it">«30 anni che vado da Beppe ,la simpatia ,la velocità, la precisione negli appuntamenti, le riviste di auto e moto ,e gossip fin che si beve il caffè ☕...grande Beppe»</blockquote>
+        <div class="who"><span class="av" aria-hidden="true">PS</span><span class="nm">Paolo S.</span></div>
+      </div>
+      <div class="rev">
+        <div class="stars" role="img" aria-label="4 out of 5"><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg><svg viewBox="0 0 24 24" fill="currentColor" class="off"><path d="m12 2 3 6.5 7 .8-5.2 4.8 1.4 6.9L12 17.8 5.4 21l1.4-6.9L1.6 9.3l7-.8L12 2Z"/></svg></div>
+        <blockquote lang="it">«Servizio al top e professionalità a grandi livelli. La soddisfazione del cliente al primo posto. Ho trovato il mio barbiere!»</blockquote>
+        <div class="who"><span class="av" aria-hidden="true">LC</span><span class="nm">Luca C.</span></div>
+      </div>
+    </div>
+    <div class="rev-foot reveal"><a class="btn btn-line" href="https://www.google.com/search?q=Beppe+Salone+di+Giuseppe+Pozzani" target="_blank" rel="noopener">Read all reviews on Google</a></div>
+  </div>
+</section>
+
+<section class="section where" id="dove">
+  <div class="wrap">
+    <div class="where-grid">
+      <div class="reveal">
+        <span class="eyebrow">Find us</span>
+        <h2 class="h2">In Piazzale <span class="alt">Roma.</span></h2>
+        <ul class="clist">
+          <li><a href="https://maps.google.com/?daddr=Piazzale%20Roma%2C%2012%2C%2037016%20Garda%20VR">
+            <span class="ci"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-5.3 7-11a7 7 0 1 0-14 0c0 5.7 7 11 7 11Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.6"/></svg></span>
+            <span><span class="cl">Address</span><span class="cv">Piazzale Roma 12<span class="sub">37016 Garda (VR)</span></span></span>
+          </a></li>
+          <li><a href="tel:+390456270342">
+            <span class="ci"><svg viewBox="0 0 24 24" fill="none"><path d="M5 4h3l2 5-2.5 1.5a11 11 0 0 0 5 5L14 13l5 2v3a2 2 0 0 1-2 2A16 16 0 0 1 3 6a2 2 0 0 1 2-2Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+            <span><span class="cl">Phone</span><span class="cv">045 627 0342<span class="sub">Tue–Sat · 8:45 am–1:00 pm</span></span></span>
+          </a></li>
+          <li><a href="mailto:info@beppebarber.com">
+            <span class="ci"><svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="5.5" width="17" height="13" rx="2" stroke="currentColor" stroke-width="1.6"/><path d="m4 7 8 6 8-6" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+            <span><span class="cl">Email</span><span class="cv">info@beppebarber.com<span class="sub">For information and privacy</span></span></span>
+          </a></li>
+          <li><a href="https://www.facebook.com/barbieregarda/">
+            <span class="ci"><svg viewBox="0 0 24 24" fill="none"><path d="M14 8h3V5h-3a4 4 0 0 0-4 4v2H8v3h2v7h3v-7h3l1-3h-4V9a1 1 0 0 1 1-1Z" stroke="currentColor" stroke-width="1.6" stroke-linejoin="round"/></svg></span>
+            <span><span class="cl">Facebook</span><span class="cv">Barbiere Garda<span class="sub">Photos and updates</span></span></span>
+          </a></li>
+        </ul>
+        <div class="where-actions">
+          <a href="https://maps.google.com/?daddr=Piazzale%20Roma%2C%2012%2C%2037016%20Garda%20VR" class="btn btn-dark">Get directions</a>
+          <a href="#prenota" class="btn btn-line">Book in the calendar</a>
+        </div>
+      </div>
+      <div class="reveal">
+        <div class="map-wrap">
+          <div class="gate gate-map" data-gate data-cls="map-frame" data-title="Map — Piazzale Roma 12, Garda" data-src="https://maps.google.com/maps?q=Piazzale%20Roma%2012%2C%2037016%20Garda%20VR&t=&z=16&ie=UTF8&iwloc=&output=embed&hl=en">
+            <span class="gi"><svg viewBox="0 0 24 24" fill="none"><path d="M12 21s7-5.3 7-11a7 7 0 1 0-14 0c0 5.7 7 11 7 11Z" stroke="currentColor" stroke-width="1.8" stroke-linejoin="round"/><circle cx="12" cy="10" r="2.4" stroke="currentColor" stroke-width="1.8"/></svg></span>
+            <p>To show the map, content from Google is loaded, which may set cookies. No data is sent until you ask. <a href="/cookie-policy/">Cookie Policy (IT)</a></p>
+            <button type="button" class="btn btn-dark" data-load>Load the map</button>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="section cta dark">
+  <div class="deco" aria-hidden="true"><span class="d-dots fade-c"></span></div>
+  <div class="wrap">
+    <span class="eyebrow c">See you soon</span>
+    <h2 class="h2" style="margin-top:16px">Your seat <span class="alt">in the chair.</span></h2>
+    <p class="lede">Pick your time in the calendar and find the chair free when you arrive.</p>
+    <div class="cta-actions">
+      <a href="#prenota" class="btn btn-brass">
+        <svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="5" width="17" height="15.5" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="m9.5 15 2 2 3.5-3.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>
+        Book your seat in the calendar
+      </a>
+      <a href="#servizi" class="btn btn-ghost-l">Back to the price list</a>
+    </div>
+  </div>
+</section>
+
+<footer class="foot">
+  <div class="wrap">
+    <div class="foot-top">
+      <div>
+        <span class="brand"><span class="mk">B</span><span class="bt"><span class="bn">Beppe</span><span class="br">Barber · Garda</span></span></span>
+        <p>Men's barber in Piazzale Roma, in Garda. Haircuts, beards and beard shaping, with the calm of a time gone by.</p>
+      </div>
+      <div>
+        <h4>Contact</h4>
+        <ul>
+          <li>Piazzale Roma 12, Garda (VR)</li>
+          <li><a href="mailto:info@beppebarber.com">info@beppebarber.com</a></li>
+          <li><a href="https://www.facebook.com/barbieregarda/">Facebook</a></li>
+        </ul>
+      </div>
+      <div>
+        <h4>Opening hours</h4>
+        <ul>
+          <li>Tuesday – Saturday · 8:45 am–1:00 pm</li>
+          <li>Monday · closed</li>
+          <li>Sunday · closed</li>
+        </ul>
+      </div>
+    </div>
+    <div class="foot-bottom">
+      
+      <span>© 2026 Beppe Salone di Giuseppe Pozzani · P. IVA 02398480232 · <a href="/privacy-policy/">Privacy Policy</a> · <a href="/cookie-policy/">Cookie Policy</a> · <button type="button" class="linkbtn" data-cookie-prefs>Cookie settings</button></span>
+      <span>Website by Seven Web</span>
+    </div>
+  </div>
+</footer>
+
+<div class="mob-cta">
+  <a class="call" href="#prenota"><svg viewBox="0 0 24 24" fill="none"><rect x="3.5" y="5" width="17" height="15.5" rx="2" stroke="currentColor" stroke-width="1.8"/><path d="M3.5 10h17M8 3v4M16 3v4" stroke="currentColor" stroke-width="1.8" stroke-linecap="round"/><path d="m9.5 15 2 2 3.5-3.8" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"/></svg>Book in the calendar</a>
+</div>
+
+<script>
+(function(){var els=document.querySelectorAll('.reveal');var reduce=window.matchMedia&&window.matchMedia('(prefers-reduced-motion: reduce)').matches;if(reduce||!('IntersectionObserver' in window)){els.forEach(function(e){e.classList.add('in')});return;}var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add('in');io.unobserve(e.target);}});},{threshold:.12,rootMargin:'0px 0px -8% 0px'});els.forEach(function(e){io.observe(e)});})();
+(function(){var t=document.getElementById('navToggle'), m=document.getElementById('mMenu');if(!t||!m) return;function close(){t.classList.remove('open');m.classList.remove('open');t.setAttribute('aria-expanded','false');m.setAttribute('aria-hidden','true');t.setAttribute('aria-label','Open menu');document.body.classList.remove('menu-open');}function open(){t.classList.add('open');m.classList.add('open');t.setAttribute('aria-expanded','true');m.setAttribute('aria-hidden','false');t.setAttribute('aria-label','Close menu');document.body.classList.add('menu-open');}t.addEventListener('click',function(){t.classList.contains('open')?close():open();});m.querySelectorAll('a').forEach(function(a){a.addEventListener('click',close);});document.addEventListener('keydown',function(e){if(e.key==='Escape')close();});})();
+</script>
+<div class="cookie-bar" id="cookieBar" role="dialog" aria-label="Cookies" hidden>
+  <p><b>Cookies</b> This site only uses technical cookies. The calendar and map are Google content and only load if you accept them. <a href="/cookie-policy/">Cookie Policy (IT)</a></p>
+  <div class="cookie-actions"><button type="button" class="btn btn-line" data-cookie-reject>Necessary only</button><button type="button" class="btn btn-dark" data-cookie-accept>Accept</button></div>
+</div>
+<script>
+(function(){
+var KEY='bb_google_ok';
+function get(){try{return localStorage.getItem(KEY)}catch(e){return null}}
+function set(v){try{localStorage.setItem(KEY,v)}catch(e){}}
+var bar=document.getElementById('cookieBar');
+function load(g){var f=document.createElement('iframe');f.className=g.getAttribute('data-cls');f.title=g.getAttribute('data-title');f.loading='lazy';f.referrerPolicy='no-referrer-when-downgrade';f.src=g.getAttribute('data-src');g.replaceWith(f);}
+function loadAll(){document.querySelectorAll('[data-gate]').forEach(load)}
+function hideBar(){if(bar)bar.hidden=true}
+if(bar&&get()===null)bar.hidden=false;
+if(get()==='1')loadAll();
+var a=document.querySelector('[data-cookie-accept]'),r=document.querySelector('[data-cookie-reject]');
+if(a)a.addEventListener('click',function(){set('1');loadAll();hideBar()});
+if(r)r.addEventListener('click',function(){set('0');hideBar()});
+document.querySelectorAll('[data-gate] [data-load]').forEach(function(b){b.addEventListener('click',function(){set('1');loadAll();hideBar()})});
+document.querySelectorAll('[data-cookie-prefs]').forEach(function(b){b.addEventListener('click',function(){try{localStorage.removeItem(KEY)}catch(e){};location.reload()})});
+})();
+</script>
+<script>
+(function(){
+var g=document.querySelector('[data-gallery]');if(!g)return;
+var slides=[].slice.call(g.querySelectorAll('.gal-slide')),ths=[].slice.call(g.querySelectorAll('.gal-th')),cnt=g.querySelector('.gal-count'),i=0,n=slides.length;
+function show(k){i=(k+n)%n;slides.forEach(function(s,j){var on=j===i;s.classList.toggle('is-active',on);s.setAttribute('aria-hidden',on?'false':'true')});
+ths.forEach(function(t,j){var on=j===i;t.classList.toggle('is-active',on);if(on)t.setAttribute('aria-current','true');else t.removeAttribute('aria-current')});
+if(cnt)cnt.textContent=(i+1)+' / '+n}
+g.querySelector('.gal-btn.prev').addEventListener('click',function(){show(i-1)});
+g.querySelector('.gal-btn.next').addEventListener('click',function(){show(i+1)});
+ths.forEach(function(t,j){t.addEventListener('click',function(){show(j)})});
+g.addEventListener('keydown',function(e){if(e.key==='ArrowLeft'){show(i-1)}else if(e.key==='ArrowRight'){show(i+1)}});
+var sx=null,st=g.querySelector('.gal-stage');
+st.addEventListener('touchstart',function(e){sx=e.touches[0].clientX},{passive:true});
+st.addEventListener('touchend',function(e){if(sx===null)return;var dx=e.changedTouches[0].clientX-sx;if(Math.abs(dx)>40)show(dx<0?i+1:i-1);sx=null},{passive:true});
+show(0);
+})();
+</script>
+</body>
+</html>
